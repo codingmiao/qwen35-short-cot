@@ -1,0 +1,32 @@
+{
+  "sample_size": 1000,
+  "max_retries": 3,
+  "timeout": 600,
+  "temperature": 0.0,
+  "max_tokens": 8192,
+  "max_workers": 8,
+  "data_file": "filtered_r1_messages_test.jsonl",
+  "output_file": "evaluation_results_final.json",
+  "test_apis": [
+    {
+      "name": "sft_org",
+      "url": "http://127.0.0.1:29800/v1/chat/completions",
+      "model": "sft_org"
+    },
+    {
+      "name": "sft_r1",
+      "url": "http://127.0.0.1:29801/v1/chat/completions",
+      "model": "sft_r1"
+    },
+    {
+      "name": "sft_claude",
+      "url": "http://127.0.0.1:29802/v1/chat/completions",
+      "model": "sft_claude"
+    }
+  ],
+  "judge_api": {
+    "name": "chat_min",
+    "url": "http://127.0.0.1:19800/v1/chat/completions",
+    "model": "chat_min"
+  }
+}
