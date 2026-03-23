@@ -2,6 +2,10 @@
 
 This project investigates fine-tuning the Qwen3.5 model using distilled data to address the issue of excessively long chain-of-thought reasoning.
 
+
+download model:
+[modelscope](https://www.modelscope.cn/models/codingmiao/qwen3.5-9b-dsr1-cot-sft)
+
 ---
 
 ## 📋 Overview
