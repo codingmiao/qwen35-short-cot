@@ -1,9 +1,12 @@
+[English](README_EN.md)  [中文](README.md)
+
+
 # Qwen3.5 思维链优化研究
 
 本项目研究通过蒸馏数据对Qwen3.5模型的微调，解决Qwen3.5思维链思考过长的问题。
 
 下载模型:
-[modelscope](https://www.modelscope.cn/models/codingmiao/qwen3.5-9b-dsr1-cot-sft)
+[modelscope](https://www.modelscope.cn/models/codingmiao/qwen3.5-9b-dsr1-cot-sft) [huggingface](https://huggingface.co/imliuyu/qwen3.5-9b-dsr1-cot-sft)
 
 ## 📋 综述
 
@@ -705,7 +708,6 @@ else:
 
 - Qwen3.5-9B：https://huggingface.co/Qwen/Qwen3.5-9B
 - Qwen3.5-9B-Claude-Distilled：https://huggingface.co/Jackrong/Qwen3.5-9B-Claude-4.6-Opus-Reasoning-Distilled
-- Chinese-DeepSeek-R1-Distill-data：https://www.modelscope.cn/datasets/liucong/Chinese-DeepSeek-R1-Distill-data-110k-SFT
 
 ### 社区讨论
 
